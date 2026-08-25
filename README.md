@@ -28,4 +28,4 @@
 - [cliente.csv](./cliente.csv)
 - [telefone.csv](./telefone.csv)
 - [produto.csv](./produto.csv)
-- [pedido.csv](./pedido.csv)# sesi_bcd_aula03_mer_der_dd_dados_2026
+- [pedido.csv](./pedido.csv)
