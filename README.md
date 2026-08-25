@@ -25,7 +25,7 @@
 |Pedido | subtotal | Decimal | 10,2 | Subtotal do pedido derivado de: (valor_unitario * quantidade) |
 
 ## Dados de teste em CSV
-- [cliente.csv](./cliente.csv)
-- [telefone.csv](./telefone.csv)
-- [produto.csv](./produto.csv)
-- [pedido.csv](./pedido.csv)
+- ![cliente.csv](./cliente.csv)
+- ![telefone.csv](./telefone.csv)
+- ![produto.csv](./produto.csv)
+- ![pedido.csv](./pedido.csv)
