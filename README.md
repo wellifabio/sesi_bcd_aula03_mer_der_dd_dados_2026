@@ -20,6 +20,7 @@
 |Produto | nome | Texto | 100 | Nome do produto |
 |Pedido | id | Inteiro | 11 | Identificador, PK, Auto incrementável |
 |Pedido | id_cliente | Inteiro | 11 | Identificador do cliente, FK referenciando Cliente (id)|
+|Pedido | id_produto | Inteiro | 11 | Identificador do produto, FK referenciando Produto (id)|
 |Pedido | valor_unitario | Decimal | 10,2 | Valor unitário do pedido |
 |Pedido | quantidade | Inteiro | 11 | Quantidade do pedido |
 |Pedido | subtotal | Decimal | 10,2 | Subtotal do pedido derivado de: (valor_unitario * quantidade) |
