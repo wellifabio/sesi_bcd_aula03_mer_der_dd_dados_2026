@@ -8,8 +8,8 @@ create table produto(
 create table telefone(
     id int not null primary key auto_increment,
     id_cliente int not null,
-    numero varchar(100) not null,
-    tipo enum('residencial', 'comercial', 'celular') not null
+    numero varchar(100) not null unique,
+    tipo enum('Residencial', 'Comercial', 'Celular') not null
 );
 create table cliente(
     id int not null primary key auto_increment,
