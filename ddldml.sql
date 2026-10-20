@@ -36,17 +36,18 @@ use gestao_pedidos;
 insert into cliente(nome, complemento, numero, cep) values
 ("Ana Maria Silva",null,"21","13905-522"),
 ("Valentina Oliveira","Ap:19 Bloco:2","12","13903-333"),
-("Enzo Martins","Ap: 19"," 195B","13903-235"),
-('Timóteo Matos','13905-714','27','Ap44 bl01'),
-('Xeila Teixeira de Souza','13907-100',null,'Fundos'),
-('Raul Bispo Filho','13907-100','100',null),
-('Hugo Souza','13904-906','9090','Fundos'),
-('Brito Bispo Martim','13904-906','1313',null),
-('Hugo Silva Alves','13904-452','1010',null),
-('Valter Martins','13904-071','1245',null),
-('Antônio Martins','13905-520','2345',null),
-('Zélia Júnior','13901-329','13',null),
-('Evandro Martins de Oliveira','13905-682','17','BL12 AP44');
+("Enzo Martins","Ap: 19"," 195B","13903-235");
+insert into cliente(nome, cep, numero, complemento) values
+("Timoteo Matos","13905-714","27","Ap44 bl01"),
+("Xeila Teixeira de Souza","13907-100",null,"Fundos"),
+("Raul Bispo Filho","13907-100","100",null),
+("Hugo Souza","13904-906","9090","Fundos"),
+("Brito Bispo Martim","13904-906","1313",null),
+("Hugo Silva Alves","13904-452","1010",null),
+("Valter Martins","13904-071","1245",null),
+("Antonio Martins","13905-520","2345",null),
+("Zelia Oliveira","13901-329","13",null),
+("Evandro Martins de Oliveira","13905-682","17","BL12 AP44");
 
 insert into telefone(id_cliente,numero,tipo) values
 (1,"19 99987-8789","Celular"),
@@ -54,7 +55,8 @@ insert into telefone(id_cliente,numero,tipo) values
 (2,"19 98450-1212","Residencial"),
 (3,"19 99988-2121","Celular"),
 (3,"19 99777-2222","Residencial"),
-(3,"19 99900-1010","Comercial"),
+(3,"19 99900-1010","Comercial");
+insert into telefone(id_cliente,tipo,numero) values
 (4, "celular", "19-90952-7709"),
 (4, "residencial", "19-86960-6613"),
 (5, "celular", "19-59052-5910"),
