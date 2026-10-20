@@ -79,15 +79,15 @@ insert into produto(nome) values
 ("Impressora matricial"),
 ("Impressora mobile"),
 ("Impressora termica"),
-("Impressora fotográfica"),
+("Impressora fotografica"),
 ("Impressora multifuncional"),
-("Impressora sublimática"),
+("Impressora sublimatica"),
 ("Impressora de etiquetas"),
 ("Impressora 3D"),
 ("Impressora tanque de tinta"),
 ("Impressora jato de tinta"),
 ("Impressora LED"),
-("Impressora portátil");
+("Impressora portatil");
 
 insert into pedido(id_cliente,id_produto,quantidade,valor_unitario) values
 (1, 1, 1, 899.90),
