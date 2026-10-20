@@ -78,7 +78,7 @@ insert into produto(nome) values
 ("Impressora deskjet"),
 ("Impressora matricial"),
 ("Impressora mobile"),
-("Impressora térmica"),
+("Impressora termica"),
 ("Impressora fotográfica"),
 ("Impressora multifuncional"),
 ("Impressora sublimática"),
